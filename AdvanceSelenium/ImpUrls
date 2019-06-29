@@ -1,0 +1,15 @@
+tesseract-ocr
+**************
+https://github.com/tesseract-ocr/tesseract
+
+Trained Data
+*************
+https://github.com/tesseract-ocr/tessdata
+
+tess4J
+*********
+http://tess4j.sourceforge.net/
+
+Selenium 4 maven dependency
+*******************************
+https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.0.0-alpha-1
