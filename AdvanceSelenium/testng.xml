@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="JiraBugCreateSuite">
+<listeners>
+ <listener class-name="Learn.JiraIntegrationWithSelenium.TestJiraListener"/>
+</listeners>
+  <test thread-count="2" name="JiraBugCreateTest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Learn.JiraIntegrationWithSelenium.JaraBugRaiseTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

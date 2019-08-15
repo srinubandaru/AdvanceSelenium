@@ -39,7 +39,7 @@ public class TakingElementScreenShot {
 		driver.findElement(By.xpath("//*[@id='pwd']")).sendKeys("538925");
 		
 		Thread.sleep(4000);
-		WebElement ele=driver.findElement(By.xpath(".//img[@id='nlpCaptchaImg']"));
+		WebElement ele=driver.findElement(By.xpath(".//img[@id='captchaImg']"));
 		
 		File  sr= ele.getScreenshotAs(OutputType.FILE);
 		String imageFile="screenSnaps/ImageFile.png";
