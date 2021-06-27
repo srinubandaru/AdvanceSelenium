@@ -17,7 +17,11 @@ public class ToReadImages {
 	ITesseract image=new Tesseract();
 		
 		try {
-			File file=new File("dataFiles/ImageforText2.png");
+			
+			//C:\Users\srinu\git\AdvanceSelenium\AdvanceSelenium\screenSnaps\PilloBuxCaptchaImage.PNG
+			//File file=new File("dataFiles/ImageforText2.png");
+		
+		File file=new File("screenSnaps/PilloBuxCaptchaImage2.PNG");
 			if (file.exists()) {
 				System.out.println(file.getCanonicalPath()+ "  Yes File Exist ");
 				

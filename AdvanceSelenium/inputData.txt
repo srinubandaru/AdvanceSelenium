@@ -1,0 +1,5 @@
+ExpFileLocation=PDFCompareToolData/ExpFileLocation
+ActFileLocation=PDFCompareToolData/ActFileLocation
+OutputFileLocation=PDFCompareToolData/OutputFileLocation
+ExcelFileInputPath=PDFCompareToolData/inputData.xlsx
+ExcelFileOutputPath=PDFCompareToolData/OutputFileLocation/outputData.xlsx

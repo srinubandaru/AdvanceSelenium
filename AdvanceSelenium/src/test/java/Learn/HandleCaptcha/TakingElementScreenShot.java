@@ -23,12 +23,16 @@ public class TakingElementScreenShot {
 	public static void main(String[] args) throws IOException, TesseractException, InterruptedException {
 		
 		//WebDriverManager.chromedriver().setup();
-		System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "lib/chromedriver.exe");
 		
-		ChromeOptions opt=new ChromeOptions();
+		System.setProperty("webdriver.gecko.driver", "lib/geckodriver.exe");
+		
+		/*ChromeOptions opt=new ChromeOptions();
 		opt.addArguments("--disable-notifications");
+		WebDriver driver=new ChromeDriver(opt);*/
 		
-		WebDriver driver=new ChromeDriver(opt);
+		WebDriver driver=new FirefoxDriver();
+		
 		driver.manage().window().maximize();
 		driver.get("https://www.irctc.co.in/nget/train-search");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
